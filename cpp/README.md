@@ -1,0 +1,1 @@
+- 安装 [C/C++插件](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)

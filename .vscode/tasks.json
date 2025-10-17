@@ -4,7 +4,7 @@
     {
       "label": "build cpp_bin",
       "type": "shell",
-      "command": "cmake --build ${workspaceFolder}/cpp/build",
+      "command": "cmake -S ${workspaceFolder}/cpp -B ${workspaceFolder}/cpp/build -DCMAKE_BUILD_TYPE=Debug && cmake --build ${workspaceFolder}/cpp/build",
       "group": {
         "kind": "build",
         "isDefault": true
